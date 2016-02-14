@@ -34,7 +34,6 @@ defmodule Grid do
     end
   end
 
-  # Fair enough, but if only I could add this to the pipeline.
   @doc """
   Launches the cycle-function, with a sharp or flat chromatic scale, 
   based on the key-argument (ground note). 
