@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Music
 
 **TODO: Add description**
@@ -18,3 +19,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
           [applications: [:music]]
         end
 
+=======
+# elixir-homebrew
+Personal Elixir scripts, probably of no use to anyone. 
+>>>>>>> bb2ffabe28f9b6d16ca82f4719b83860bad04b67
