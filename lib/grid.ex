@@ -48,8 +48,10 @@ defmodule Grid do
     end
   end
 
-  # Little bit of recursion, which needed a STAHP script, which aint too bad. 
-  # Otherwise you'd try the key vs 24 arguments, before calling a STAHP.
+  @doc """
+  If the head of the list, is exactly equal to the key, return the current list.
+  Else: put head, as new tail -> repeat.
+  """
   defp cycle(key, list) do
     [head|tail] = list
     if key === head do
